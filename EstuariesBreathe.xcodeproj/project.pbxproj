@@ -14,6 +14,10 @@
 		62A472421EEC010100618EB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62A472401EEC010100618EB9 /* LaunchScreen.storyboard */; };
 		62A4724D1EEC010100618EB9 /* EstuariesBreatheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A4724C1EEC010100618EB9 /* EstuariesBreatheTests.swift */; };
 		62A472581EEC010100618EB9 /* EstuariesBreatheUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A472571EEC010100618EB9 /* EstuariesBreatheUITests.swift */; };
+		62A472681EEC016B00618EB9 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62A472671EEC016B00618EB9 /* SWRevealViewController.m */; };
+		62A4726A1EEC05F700618EB9 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A472691EEC05F700618EB9 /* MenuViewController.swift */; };
+		62A4726C1EEC062C00618EB9 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A4726B1EEC062C00618EB9 /* MenuTableViewCell.swift */; };
+		62A472701EEC119A00618EB9 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A4726F1EEC119A00618EB9 /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,12 @@
 		62A472531EEC010100618EB9 /* EstuariesBreatheUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EstuariesBreatheUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		62A472571EEC010100618EB9 /* EstuariesBreatheUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstuariesBreatheUITests.swift; sourceTree = "<group>"; };
 		62A472591EEC010100618EB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62A472651EEC016B00618EB9 /* EstuariesBreathe-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EstuariesBreathe-Bridging-Header.h"; sourceTree = "<group>"; };
+		62A472661EEC016B00618EB9 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		62A472671EEC016B00618EB9 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		62A472691EEC05F700618EB9 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		62A4726B1EEC062C00618EB9 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		62A4726F1EEC119A00618EB9 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +108,17 @@
 			isa = PBXGroup;
 			children = (
 				62A472371EEC010100618EB9 /* AppDelegate.swift */,
+				62A472661EEC016B00618EB9 /* SWRevealViewController.h */,
+				62A472671EEC016B00618EB9 /* SWRevealViewController.m */,
 				62A472391EEC010100618EB9 /* ViewController.swift */,
 				62A4723B1EEC010100618EB9 /* Main.storyboard */,
 				62A4723E1EEC010100618EB9 /* Assets.xcassets */,
 				62A472401EEC010100618EB9 /* LaunchScreen.storyboard */,
 				62A472431EEC010100618EB9 /* Info.plist */,
+				62A472651EEC016B00618EB9 /* EstuariesBreathe-Bridging-Header.h */,
+				62A472691EEC05F700618EB9 /* MenuViewController.swift */,
+				62A4726B1EEC062C00618EB9 /* MenuTableViewCell.swift */,
+				62A4726F1EEC119A00618EB9 /* AboutViewController.swift */,
 			);
 			path = EstuariesBreathe;
 			sourceTree = "<group>";
@@ -194,6 +210,7 @@
 					62A472331EEC010100618EB9 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 44W3VXH6S2;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					62A472471EEC010100618EB9 = {
@@ -262,8 +279,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62A472701EEC119A00618EB9 /* AboutViewController.swift in Sources */,
 				62A4723A1EEC010100618EB9 /* ViewController.swift in Sources */,
 				62A472381EEC010100618EB9 /* AppDelegate.swift in Sources */,
+				62A472681EEC016B00618EB9 /* SWRevealViewController.m in Sources */,
+				62A4726A1EEC05F700618EB9 /* MenuViewController.swift in Sources */,
+				62A4726C1EEC062C00618EB9 /* MenuTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,11 +434,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 44W3VXH6S2;
 				INFOPLIST_FILE = EstuariesBreathe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JohnHalley.EstuariesBreathe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EstuariesBreathe/EstuariesBreathe-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -426,11 +450,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 44W3VXH6S2;
 				INFOPLIST_FILE = EstuariesBreathe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JohnHalley.EstuariesBreathe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EstuariesBreathe/EstuariesBreathe-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
