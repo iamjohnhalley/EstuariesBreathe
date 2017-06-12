@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A3B6132F532521F0EE91CB9 /* Pods_EstuariesBreatheTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29CA769C0DD9CA35CE36E0F /* Pods_EstuariesBreatheTests.framework */; };
 		62A472381EEC010100618EB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A472371EEC010100618EB9 /* AppDelegate.swift */; };
 		62A4723A1EEC010100618EB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A472391EEC010100618EB9 /* ViewController.swift */; };
 		62A4723D1EEC010100618EB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62A4723B1EEC010100618EB9 /* Main.storyboard */; };
@@ -18,6 +19,14 @@
 		62A4726A1EEC05F700618EB9 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A472691EEC05F700618EB9 /* MenuViewController.swift */; };
 		62A4726C1EEC062C00618EB9 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A4726B1EEC062C00618EB9 /* MenuTableViewCell.swift */; };
 		62A472701EEC119A00618EB9 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A4726F1EEC119A00618EB9 /* AboutViewController.swift */; };
+		62A472841EEC383E00618EB9 /* HeartV6.json in Resources */ = {isa = PBXBuildFile; fileRef = 62A472801EEC383E00618EB9 /* HeartV6.json */; };
+		62A472851EEC383E00618EB9 /* CircleV6.json in Resources */ = {isa = PBXBuildFile; fileRef = 62A472811EEC383E00618EB9 /* CircleV6.json */; };
+		62A472861EEC383E00618EB9 /* Featherv6.json in Resources */ = {isa = PBXBuildFile; fileRef = 62A472821EEC383E00618EB9 /* Featherv6.json */; };
+		62A472871EEC383E00618EB9 /* FocusV6.json in Resources */ = {isa = PBXBuildFile; fileRef = 62A472831EEC383E00618EB9 /* FocusV6.json */; };
+		62A4728A1EEC386A00618EB9 /* CircleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A472891EEC386A00618EB9 /* CircleViewController.swift */; };
+		62A4728D1EEC389500618EB9 /* 6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 62A4728C1EEC389500618EB9 /* 6.mp3 */; };
+		6337FE29ABC63E90AADDC7FA /* Pods_EstuariesBreathe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D136C236D48CE1AA2AD3D920 /* Pods_EstuariesBreathe.framework */; };
+		A3A72EBE72BDCBDCDC82C5AE /* Pods_EstuariesBreatheUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 663056D1C852E4C6D3641367 /* Pods_EstuariesBreatheUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		58DB25800A24FA02C65C78F7 /* Pods-EstuariesBreatheUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EstuariesBreatheUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EstuariesBreatheUITests/Pods-EstuariesBreatheUITests.release.xcconfig"; sourceTree = "<group>"; };
 		62A472341EEC010100618EB9 /* EstuariesBreathe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EstuariesBreathe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62A472371EEC010100618EB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		62A472391EEC010100618EB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +67,32 @@
 		62A472691EEC05F700618EB9 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		62A4726B1EEC062C00618EB9 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
 		62A4726F1EEC119A00618EB9 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		62A472721EEC348900618EB9 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		62A472731EEC348900618EB9 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		62A472741EEC348900618EB9 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		62A472751EEC348900618EB9 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		62A472761EEC348900618EB9 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		62A472771EEC348900618EB9 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		62A472781EEC348900618EB9 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		62A472791EEC348900618EB9 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		62A4727A1EEC348900618EB9 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		62A4727B1EEC348900618EB9 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		62A4727C1EEC348900618EB9 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		62A4727D1EEC348900618EB9 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		62A472801EEC383E00618EB9 /* HeartV6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = HeartV6.json; sourceTree = "<group>"; };
+		62A472811EEC383E00618EB9 /* CircleV6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CircleV6.json; sourceTree = "<group>"; };
+		62A472821EEC383E00618EB9 /* Featherv6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Featherv6.json; sourceTree = "<group>"; };
+		62A472831EEC383E00618EB9 /* FocusV6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FocusV6.json; sourceTree = "<group>"; };
+		62A472891EEC386A00618EB9 /* CircleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleViewController.swift; sourceTree = "<group>"; };
+		62A4728C1EEC389500618EB9 /* 6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 6.mp3; sourceTree = "<group>"; };
+		663056D1C852E4C6D3641367 /* Pods_EstuariesBreatheUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EstuariesBreatheUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D9863D9FC5C92791B983C4F /* Pods-EstuariesBreathe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EstuariesBreathe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EstuariesBreathe/Pods-EstuariesBreathe.debug.xcconfig"; sourceTree = "<group>"; };
+		8135F83BBC8D4A2BA54D45EA /* Pods-EstuariesBreatheTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EstuariesBreatheTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EstuariesBreatheTests/Pods-EstuariesBreatheTests.release.xcconfig"; sourceTree = "<group>"; };
+		B29CA769C0DD9CA35CE36E0F /* Pods_EstuariesBreatheTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EstuariesBreatheTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D136C236D48CE1AA2AD3D920 /* Pods_EstuariesBreathe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EstuariesBreathe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAA224C99F269F8DBD7EAFC7 /* Pods-EstuariesBreatheTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EstuariesBreatheTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EstuariesBreatheTests/Pods-EstuariesBreatheTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ED4CC3AE6E3FC989EAF0198A /* Pods-EstuariesBreathe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EstuariesBreathe.release.xcconfig"; path = "Pods/Target Support Files/Pods-EstuariesBreathe/Pods-EstuariesBreathe.release.xcconfig"; sourceTree = "<group>"; };
+		FF7A94193695FE1AF91615D4 /* Pods-EstuariesBreatheUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EstuariesBreatheUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EstuariesBreatheUITests/Pods-EstuariesBreatheUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6337FE29ABC63E90AADDC7FA /* Pods_EstuariesBreathe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A3B6132F532521F0EE91CB9 /* Pods_EstuariesBreatheTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3A72EBE72BDCBDCDC82C5AE /* Pods_EstuariesBreatheUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +130,8 @@
 				62A4724B1EEC010100618EB9 /* EstuariesBreatheTests */,
 				62A472561EEC010100618EB9 /* EstuariesBreatheUITests */,
 				62A472351EEC010100618EB9 /* Products */,
+				B51EC72569B49EEED8695C38 /* Pods */,
+				EC6D6F50F1705A14C1377A23 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,17 +148,17 @@
 		62A472361EEC010100618EB9 /* EstuariesBreathe */ = {
 			isa = PBXGroup;
 			children = (
+				62A4728B1EEC388A00618EB9 /* Breathing Audio */,
+				62A472881EEC385900618EB9 /* Breathing Controllers */,
+				62A4727F1EEC381E00618EB9 /* Breathing Exercises */,
+				62A4727E1EEC380400618EB9 /* Menu */,
+				62A472711EEC346500618EB9 /* Font */,
 				62A472371EEC010100618EB9 /* AppDelegate.swift */,
-				62A472661EEC016B00618EB9 /* SWRevealViewController.h */,
-				62A472671EEC016B00618EB9 /* SWRevealViewController.m */,
 				62A472391EEC010100618EB9 /* ViewController.swift */,
 				62A4723B1EEC010100618EB9 /* Main.storyboard */,
 				62A4723E1EEC010100618EB9 /* Assets.xcassets */,
 				62A472401EEC010100618EB9 /* LaunchScreen.storyboard */,
 				62A472431EEC010100618EB9 /* Info.plist */,
-				62A472651EEC016B00618EB9 /* EstuariesBreathe-Bridging-Header.h */,
-				62A472691EEC05F700618EB9 /* MenuViewController.swift */,
-				62A4726B1EEC062C00618EB9 /* MenuTableViewCell.swift */,
 				62A4726F1EEC119A00618EB9 /* AboutViewController.swift */,
 			);
 			path = EstuariesBreathe;
@@ -141,6 +182,87 @@
 			path = EstuariesBreatheUITests;
 			sourceTree = "<group>";
 		};
+		62A472711EEC346500618EB9 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				62A472721EEC348900618EB9 /* Roboto-Black.ttf */,
+				62A472731EEC348900618EB9 /* Roboto-BlackItalic.ttf */,
+				62A472741EEC348900618EB9 /* Roboto-Bold.ttf */,
+				62A472751EEC348900618EB9 /* Roboto-BoldItalic.ttf */,
+				62A472761EEC348900618EB9 /* Roboto-Italic.ttf */,
+				62A472771EEC348900618EB9 /* Roboto-Light.ttf */,
+				62A472781EEC348900618EB9 /* Roboto-LightItalic.ttf */,
+				62A472791EEC348900618EB9 /* Roboto-Medium.ttf */,
+				62A4727A1EEC348900618EB9 /* Roboto-MediumItalic.ttf */,
+				62A4727B1EEC348900618EB9 /* Roboto-Regular.ttf */,
+				62A4727C1EEC348900618EB9 /* Roboto-Thin.ttf */,
+				62A4727D1EEC348900618EB9 /* Roboto-ThinItalic.ttf */,
+			);
+			name = Font;
+			sourceTree = "<group>";
+		};
+		62A4727E1EEC380400618EB9 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				62A472661EEC016B00618EB9 /* SWRevealViewController.h */,
+				62A472671EEC016B00618EB9 /* SWRevealViewController.m */,
+				62A472651EEC016B00618EB9 /* EstuariesBreathe-Bridging-Header.h */,
+				62A472691EEC05F700618EB9 /* MenuViewController.swift */,
+				62A4726B1EEC062C00618EB9 /* MenuTableViewCell.swift */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		62A4727F1EEC381E00618EB9 /* Breathing Exercises */ = {
+			isa = PBXGroup;
+			children = (
+				62A472801EEC383E00618EB9 /* HeartV6.json */,
+				62A472811EEC383E00618EB9 /* CircleV6.json */,
+				62A472821EEC383E00618EB9 /* Featherv6.json */,
+				62A472831EEC383E00618EB9 /* FocusV6.json */,
+			);
+			name = "Breathing Exercises";
+			sourceTree = "<group>";
+		};
+		62A472881EEC385900618EB9 /* Breathing Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				62A472891EEC386A00618EB9 /* CircleViewController.swift */,
+			);
+			name = "Breathing Controllers";
+			sourceTree = "<group>";
+		};
+		62A4728B1EEC388A00618EB9 /* Breathing Audio */ = {
+			isa = PBXGroup;
+			children = (
+				62A4728C1EEC389500618EB9 /* 6.mp3 */,
+			);
+			name = "Breathing Audio";
+			sourceTree = "<group>";
+		};
+		B51EC72569B49EEED8695C38 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D9863D9FC5C92791B983C4F /* Pods-EstuariesBreathe.debug.xcconfig */,
+				ED4CC3AE6E3FC989EAF0198A /* Pods-EstuariesBreathe.release.xcconfig */,
+				DAA224C99F269F8DBD7EAFC7 /* Pods-EstuariesBreatheTests.debug.xcconfig */,
+				8135F83BBC8D4A2BA54D45EA /* Pods-EstuariesBreatheTests.release.xcconfig */,
+				FF7A94193695FE1AF91615D4 /* Pods-EstuariesBreatheUITests.debug.xcconfig */,
+				58DB25800A24FA02C65C78F7 /* Pods-EstuariesBreatheUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EC6D6F50F1705A14C1377A23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D136C236D48CE1AA2AD3D920 /* Pods_EstuariesBreathe.framework */,
+				B29CA769C0DD9CA35CE36E0F /* Pods_EstuariesBreatheTests.framework */,
+				663056D1C852E4C6D3641367 /* Pods_EstuariesBreatheUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -148,9 +270,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 62A4725C1EEC010100618EB9 /* Build configuration list for PBXNativeTarget "EstuariesBreathe" */;
 			buildPhases = (
+				536230B6E4174245C805D075 /* [CP] Check Pods Manifest.lock */,
 				62A472301EEC010100618EB9 /* Sources */,
 				62A472311EEC010100618EB9 /* Frameworks */,
 				62A472321EEC010100618EB9 /* Resources */,
+				73C80D9DEBAF2D7DFCEF5215 /* [CP] Embed Pods Frameworks */,
+				5B9E2E8F81A610B81C1A8AA9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -165,9 +290,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 62A4725F1EEC010100618EB9 /* Build configuration list for PBXNativeTarget "EstuariesBreatheTests" */;
 			buildPhases = (
+				0D1414519E67F9E7353897E5 /* [CP] Check Pods Manifest.lock */,
 				62A472441EEC010100618EB9 /* Sources */,
 				62A472451EEC010100618EB9 /* Frameworks */,
 				62A472461EEC010100618EB9 /* Resources */,
+				F26808BF69BD370EBA8974BD /* [CP] Embed Pods Frameworks */,
+				2AF8F6E80BC55660416D67D1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -183,9 +311,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 62A472621EEC010100618EB9 /* Build configuration list for PBXNativeTarget "EstuariesBreatheUITests" */;
 			buildPhases = (
+				C93F8F957F14CCB511061D12 /* [CP] Check Pods Manifest.lock */,
 				62A4724F1EEC010100618EB9 /* Sources */,
 				62A472501EEC010100618EB9 /* Frameworks */,
 				62A472511EEC010100618EB9 /* Resources */,
+				8E2A023A350AFE85C51B7118 /* [CP] Embed Pods Frameworks */,
+				BF7DC25F0F261C9A2AF8F0D1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -252,7 +383,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62A472841EEC383E00618EB9 /* HeartV6.json in Resources */,
+				62A4728D1EEC389500618EB9 /* 6.mp3 in Resources */,
+				62A472861EEC383E00618EB9 /* Featherv6.json in Resources */,
+				62A472851EEC383E00618EB9 /* CircleV6.json in Resources */,
 				62A472421EEC010100618EB9 /* LaunchScreen.storyboard in Resources */,
+				62A472871EEC383E00618EB9 /* FocusV6.json in Resources */,
 				62A4723F1EEC010100618EB9 /* Assets.xcassets in Resources */,
 				62A4723D1EEC010100618EB9 /* Main.storyboard in Resources */,
 			);
@@ -274,11 +410,150 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0D1414519E67F9E7353897E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2AF8F6E80BC55660416D67D1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EstuariesBreatheTests/Pods-EstuariesBreatheTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		536230B6E4174245C805D075 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5B9E2E8F81A610B81C1A8AA9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EstuariesBreathe/Pods-EstuariesBreathe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73C80D9DEBAF2D7DFCEF5215 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EstuariesBreathe/Pods-EstuariesBreathe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E2A023A350AFE85C51B7118 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EstuariesBreatheUITests/Pods-EstuariesBreatheUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF7DC25F0F261C9A2AF8F0D1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EstuariesBreatheUITests/Pods-EstuariesBreatheUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C93F8F957F14CCB511061D12 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F26808BF69BD370EBA8974BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EstuariesBreatheTests/Pods-EstuariesBreatheTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		62A472301EEC010100618EB9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62A4728A1EEC386A00618EB9 /* CircleViewController.swift in Sources */,
 				62A472701EEC119A00618EB9 /* AboutViewController.swift in Sources */,
 				62A4723A1EEC010100618EB9 /* ViewController.swift in Sources */,
 				62A472381EEC010100618EB9 /* AppDelegate.swift in Sources */,
@@ -432,11 +707,13 @@
 		};
 		62A4725D1EEC010100618EB9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D9863D9FC5C92791B983C4F /* Pods-EstuariesBreathe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 44W3VXH6S2;
 				INFOPLIST_FILE = EstuariesBreathe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JohnHalley.EstuariesBreathe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -448,11 +725,13 @@
 		};
 		62A4725E1EEC010100618EB9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED4CC3AE6E3FC989EAF0198A /* Pods-EstuariesBreathe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 44W3VXH6S2;
 				INFOPLIST_FILE = EstuariesBreathe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JohnHalley.EstuariesBreathe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -463,6 +742,7 @@
 		};
 		62A472601EEC010100618EB9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAA224C99F269F8DBD7EAFC7 /* Pods-EstuariesBreatheTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -478,6 +758,7 @@
 		};
 		62A472611EEC010100618EB9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8135F83BBC8D4A2BA54D45EA /* Pods-EstuariesBreatheTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +774,7 @@
 		};
 		62A472631EEC010100618EB9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF7A94193695FE1AF91615D4 /* Pods-EstuariesBreatheUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 44W3VXH6S2;
@@ -507,6 +789,7 @@
 		};
 		62A472641EEC010100618EB9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58DB25800A24FA02C65C78F7 /* Pods-EstuariesBreatheUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 44W3VXH6S2;

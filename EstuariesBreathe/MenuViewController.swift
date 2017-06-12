@@ -15,14 +15,14 @@ class MenuViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
     
     //var
     var menuNameArr:Array = [String]()
-    //var iconImage:Array = [UIImage]()
+    var iconImage:Array = [UIImage]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         menuNameArr = ["Breathe", "About us", "Share", "rate us", "Feedback", "Contact"]
-       // iconImage = [UIImage(named: "breathe")!, UIImage(named: "about")!, UIImage(named: "share")!, UIImage(named: "rate")!,UIImage(named: "feedback")!, UIImage(named: "contact")!]
+        iconImage = [UIImage(named: "breathe")!, UIImage(named: "about")!, UIImage(named: "share")!, UIImage(named: "rate")!,UIImage(named: "feedback")!, UIImage(named: "contact")!]
     }
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -32,7 +32,7 @@ class MenuViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "MenuTableViewCell", for: indexPath) as! MenuTableViewCell
         
-        //cell.imageIcon.image = iconImage[indexPath.row]
+        cell.imageIcon.image = iconImage[indexPath.row]
         cell.labelName.text! = menuNameArr[indexPath.row]
         return cell
     }
