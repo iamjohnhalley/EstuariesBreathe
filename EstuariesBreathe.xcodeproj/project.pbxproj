@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		3A3B6132F532521F0EE91CB9 /* Pods_EstuariesBreatheTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29CA769C0DD9CA35CE36E0F /* Pods_EstuariesBreatheTests.framework */; };
+		6247C61E1EF14D2B0098B59D /* v1.json in Resources */ = {isa = PBXBuildFile; fileRef = 6247C61D1EF14D2B0098B59D /* v1.json */; };
+		6247C6241EF1520D0098B59D /* font.json in Resources */ = {isa = PBXBuildFile; fileRef = 6247C6231EF1520D0098B59D /* font.json */; };
+		6247C6261EF1523B0098B59D /* v2.json in Resources */ = {isa = PBXBuildFile; fileRef = 6247C6251EF1523B0098B59D /* v2.json */; };
+		6247C6281EF1544D0098B59D /* 7-8-11.json in Resources */ = {isa = PBXBuildFile; fileRef = 6247C6271EF1544D0098B59D /* 7-8-11.json */; };
+		6247C62A1EF154A20098B59D /* v3.json in Resources */ = {isa = PBXBuildFile; fileRef = 6247C6291EF154A20098B59D /* v3.json */; };
+		629552DA1EEEFE3D00F53AB7 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 629552D91EEEFE3D00F53AB7 /* MessageUI.framework */; };
 		62A472381EEC010100618EB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A472371EEC010100618EB9 /* AppDelegate.swift */; };
 		62A4723A1EEC010100618EB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A472391EEC010100618EB9 /* ViewController.swift */; };
 		62A4723D1EEC010100618EB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62A4723B1EEC010100618EB9 /* Main.storyboard */; };
@@ -48,6 +54,12 @@
 
 /* Begin PBXFileReference section */
 		58DB25800A24FA02C65C78F7 /* Pods-EstuariesBreatheUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EstuariesBreatheUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EstuariesBreatheUITests/Pods-EstuariesBreatheUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6247C61D1EF14D2B0098B59D /* v1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = v1.json; sourceTree = "<group>"; };
+		6247C6231EF1520D0098B59D /* font.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = font.json; sourceTree = "<group>"; };
+		6247C6251EF1523B0098B59D /* v2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = v2.json; sourceTree = "<group>"; };
+		6247C6271EF1544D0098B59D /* 7-8-11.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "7-8-11.json"; sourceTree = "<group>"; };
+		6247C6291EF154A20098B59D /* v3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = v3.json; sourceTree = "<group>"; };
+		629552D91EEEFE3D00F53AB7 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		62A472341EEC010100618EB9 /* EstuariesBreathe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EstuariesBreathe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62A472371EEC010100618EB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		62A472391EEC010100618EB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				629552DA1EEEFE3D00F53AB7 /* MessageUI.framework in Frameworks */,
 				6337FE29ABC63E90AADDC7FA /* Pods_EstuariesBreathe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,7 +229,12 @@
 		62A4727F1EEC381E00618EB9 /* Breathing Exercises */ = {
 			isa = PBXGroup;
 			children = (
+				6247C6271EF1544D0098B59D /* 7-8-11.json */,
+				6247C6291EF154A20098B59D /* v3.json */,
+				6247C61D1EF14D2B0098B59D /* v1.json */,
+				6247C6231EF1520D0098B59D /* font.json */,
 				62A472801EEC383E00618EB9 /* HeartV6.json */,
+				6247C6251EF1523B0098B59D /* v2.json */,
 				62A472811EEC383E00618EB9 /* CircleV6.json */,
 				62A472821EEC383E00618EB9 /* Featherv6.json */,
 				62A472831EEC383E00618EB9 /* FocusV6.json */,
@@ -256,6 +274,7 @@
 		EC6D6F50F1705A14C1377A23 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				629552D91EEEFE3D00F53AB7 /* MessageUI.framework */,
 				D136C236D48CE1AA2AD3D920 /* Pods_EstuariesBreathe.framework */,
 				B29CA769C0DD9CA35CE36E0F /* Pods_EstuariesBreatheTests.framework */,
 				663056D1C852E4C6D3641367 /* Pods_EstuariesBreatheUITests.framework */,
@@ -384,10 +403,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				62A472841EEC383E00618EB9 /* HeartV6.json in Resources */,
+				6247C62A1EF154A20098B59D /* v3.json in Resources */,
 				62A4728D1EEC389500618EB9 /* 6.mp3 in Resources */,
+				6247C6281EF1544D0098B59D /* 7-8-11.json in Resources */,
 				62A472861EEC383E00618EB9 /* Featherv6.json in Resources */,
+				6247C6261EF1523B0098B59D /* v2.json in Resources */,
 				62A472851EEC383E00618EB9 /* CircleV6.json in Resources */,
+				6247C6241EF1520D0098B59D /* font.json in Resources */,
 				62A472421EEC010100618EB9 /* LaunchScreen.storyboard in Resources */,
+				6247C61E1EF14D2B0098B59D /* v1.json in Resources */,
 				62A472871EEC383E00618EB9 /* FocusV6.json in Resources */,
 				62A4723F1EEC010100618EB9 /* Assets.xcassets in Resources */,
 				62A4723D1EEC010100618EB9 /* Main.storyboard in Resources */,
@@ -821,6 +845,7 @@
 				62A4725E1EEC010100618EB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		62A4725F1EEC010100618EB9 /* Build configuration list for PBXNativeTarget "EstuariesBreatheTests" */ = {
 			isa = XCConfigurationList;
@@ -829,6 +854,7 @@
 				62A472611EEC010100618EB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		62A472621EEC010100618EB9 /* Build configuration list for PBXNativeTarget "EstuariesBreatheUITests" */ = {
 			isa = XCConfigurationList;
@@ -837,6 +863,7 @@
 				62A472641EEC010100618EB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

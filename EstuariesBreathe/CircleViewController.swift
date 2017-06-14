@@ -11,35 +11,34 @@ import Lottie
 import AVFoundation
 
 
-var breathetimer:Timer = Timer()
-var breathingSession: String!
-var myString: String!
 
 
-    var audioPlayer = AVAudioPlayer()
+//var
+var audioPlayer = AVAudioPlayer()
 
 class CircleViewController: UIViewController {
     
 
+    @IBOutlet weak var breatheTimeLabel: UILabel!
     
-   // @IBOutlet weak var breatheTimeLabel: UILabel!
+    //var timer
+    var time = 0
+    var timer = Timer()
+    public var totalTime = String()
 
-    override func viewWillDisappear(_ animated: Bool) {
-   
-      
-            //player?.stop()
-    }
-    
-        
-   
+
   
     override func viewDidLoad() {
         super.viewDidLoad()
         
-               
-       // let url = Bundle.main.url(forResource: "6", withExtension: "mp3")!
+        if ( MyVariables.yourVariable > 0) {
+        MyVariables.yourVariable = UserDefaults.standard.value(forKey: "sessionCount") as! Int
+        } else {
+            print("no")
+        }
         
-        //refernce the database
+       //start timer
+        timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(CircleViewController.action), userInfo: nil, repeats: true)
 
         
         do {
@@ -65,19 +64,25 @@ class CircleViewController: UIViewController {
 
    
      
-        let animationView = LOTAnimationView(name: "CircleV6")
-        animationView?.frame = CGRect(x: 0, y: 160, width: self.view.frame.size.width, height: 390)
+        let animationView = LOTAnimationView(name: "v3")
+        animationView?.frame = CGRect(x: 0, y: 120, width: self.view.frame.size.width, height: 390)
         animationView?.contentMode = .scaleAspectFill
         animationView?.loopAnimation = true
         
         self.view.addSubview(animationView!)
         
         animationView?.play()
-        
- 
+      
        
 
     }
+    
+    
+    override func viewWillDisappear(_ animated: Bool) {
+    
+     
+    }
+
     
 
     @IBAction func doneButton(_ sender: UIButton) {
@@ -87,10 +92,31 @@ class CircleViewController: UIViewController {
         audioPlayer.stop()
         
         
+        //stop timer
+        timer.invalidate()
+        
+        
+        
+        
+            // add 1 to session counter if timer is over 19 secs
+        
+            MyVariables.yourVariable += 1
+            let token = MyVariables.yourVariable
+            UserDefaults.standard.set(token, forKey: "sessionCount")
+        }
+    
+
+        //timer
+        func action() {
+        
+        time += 1
+        breatheTimeLabel.text = String(time)
+        
+       
+        
     }
     
     
- 
 
 
 }

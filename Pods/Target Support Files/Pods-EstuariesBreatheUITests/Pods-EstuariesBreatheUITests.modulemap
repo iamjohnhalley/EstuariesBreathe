@@ -1,0 +1,6 @@
+framework module Pods_EstuariesBreatheUITests {
+  umbrella header "Pods-EstuariesBreatheUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

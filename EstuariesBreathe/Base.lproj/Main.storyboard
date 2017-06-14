@@ -73,7 +73,7 @@
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="30" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VlN-tG-nIh">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VlN-tG-nIh">
                                 <rect key="frame" x="41" y="137" width="143" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Roboto-Thin" family="Roboto" pointSize="21"/>
@@ -146,6 +146,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="btnMenuButton" destination="xwD-9y-G2Q" id="3Yg-zQ-RTG"/>
+                        <outlet property="sessionCount" destination="VlN-tG-nIh" id="Xhi-Ie-ZXD"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9mU-aN-QG7" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -211,6 +212,13 @@
                                     <action selector="doneButton:" destination="Gpi-hD-QRY" eventType="touchUpInside" id="EWl-Li-bBH"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q0y-kd-qOD">
+                                <rect key="frame" x="116" y="464" width="142" height="109"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -220,10 +228,13 @@
                             <constraint firstItem="Fxz-ap-y1X" firstAttribute="leading" secondItem="rEX-Wh-V7Q" secondAttribute="leading" id="ubz-r2-Ah1"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="breatheTimeLabel" destination="Q0y-kd-qOD" id="a2f-5J-NI7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZcH-zZ-gbT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2804" y="-717"/>
+            <point key="canvasLocation" x="2804" y="-717.39130434782612"/>
         </scene>
         <!--About View Controller-->
         <scene sceneID="KBo-lU-3iu">
