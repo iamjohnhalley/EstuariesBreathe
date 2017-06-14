@@ -1,29 +1,18 @@
 //
-//  BreatheViewController.swift
-//  CollegeMindFYP
+//  LeafViewController.swift
+//  EstuariesBreathe
 //
-//  Created by John on 10/02/2017.
-//  Copyright © 2017 John. All rights reserved.
-
-
+//  Created by John Halley on 14/06/2017.
+//  Copyright © 2017 John Halley. All rights reserved.
+//
 import UIKit
 import Lottie
 import AVFoundation
 
+class LeafViewController: UIViewController {
 
-
-
-//var
-var audioPlayer = AVAudioPlayer()
-
-class CircleViewController: UIViewController {
-    
-
-
-  
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         
         
         do {
@@ -49,7 +38,7 @@ class CircleViewController: UIViewController {
         
         
         
-        let animationView = LOTAnimationView(name: "VersionOne")
+        let animationView = LOTAnimationView(name: "VersionFour")
         animationView?.frame = CGRect(x: 0, y: 120, width: self.view.frame.size.width, height: 390)
         animationView?.contentMode = .scaleAspectFill
         animationView?.loopAnimation = true
@@ -58,23 +47,16 @@ class CircleViewController: UIViewController {
         
         animationView?.play()
         
-
-       
-
+        
+        
     }
-    
-    
-    
 
-    @IBAction func doneButton(_ sender: UIButton) {
-    
+
+
+    @IBAction func dismiss(_ sender: UIButton) {
         
         dismiss(animated: true, completion: nil)
         audioPlayer.stop()
-        
- 
-        
-    }
- 
-}
 
+    }
+}

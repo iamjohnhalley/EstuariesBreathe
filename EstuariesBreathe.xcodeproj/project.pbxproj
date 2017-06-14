@@ -8,12 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		3A3B6132F532521F0EE91CB9 /* Pods_EstuariesBreatheTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29CA769C0DD9CA35CE36E0F /* Pods_EstuariesBreatheTests.framework */; };
-		6247C61E1EF14D2B0098B59D /* v1.json in Resources */ = {isa = PBXBuildFile; fileRef = 6247C61D1EF14D2B0098B59D /* v1.json */; };
-		6247C6241EF1520D0098B59D /* font.json in Resources */ = {isa = PBXBuildFile; fileRef = 6247C6231EF1520D0098B59D /* font.json */; };
-		6247C6261EF1523B0098B59D /* v2.json in Resources */ = {isa = PBXBuildFile; fileRef = 6247C6251EF1523B0098B59D /* v2.json */; };
-		6247C6281EF1544D0098B59D /* 7-8-11.json in Resources */ = {isa = PBXBuildFile; fileRef = 6247C6271EF1544D0098B59D /* 7-8-11.json */; };
-		6247C62A1EF154A20098B59D /* v3.json in Resources */ = {isa = PBXBuildFile; fileRef = 6247C6291EF154A20098B59D /* v3.json */; };
 		629552DA1EEEFE3D00F53AB7 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 629552D91EEEFE3D00F53AB7 /* MessageUI.framework */; };
+		62A25E1C1EF1794600AFE911 /* VersionOne.json in Resources */ = {isa = PBXBuildFile; fileRef = 62A25E1B1EF1794600AFE911 /* VersionOne.json */; };
+		62A25E1E1EF1981B00AFE911 /* heartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A25E1D1EF1981B00AFE911 /* heartViewController.swift */; };
+		62A25E221EF1A99600AFE911 /* VersionTwo.json in Resources */ = {isa = PBXBuildFile; fileRef = 62A25E211EF1A99600AFE911 /* VersionTwo.json */; };
+		62A25E241EF1AA2600AFE911 /* LeafViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A25E231EF1AA2600AFE911 /* LeafViewController.swift */; };
 		62A472381EEC010100618EB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A472371EEC010100618EB9 /* AppDelegate.swift */; };
 		62A4723A1EEC010100618EB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A472391EEC010100618EB9 /* ViewController.swift */; };
 		62A4723D1EEC010100618EB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62A4723B1EEC010100618EB9 /* Main.storyboard */; };
@@ -25,10 +24,7 @@
 		62A4726A1EEC05F700618EB9 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A472691EEC05F700618EB9 /* MenuViewController.swift */; };
 		62A4726C1EEC062C00618EB9 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A4726B1EEC062C00618EB9 /* MenuTableViewCell.swift */; };
 		62A472701EEC119A00618EB9 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A4726F1EEC119A00618EB9 /* AboutViewController.swift */; };
-		62A472841EEC383E00618EB9 /* HeartV6.json in Resources */ = {isa = PBXBuildFile; fileRef = 62A472801EEC383E00618EB9 /* HeartV6.json */; };
-		62A472851EEC383E00618EB9 /* CircleV6.json in Resources */ = {isa = PBXBuildFile; fileRef = 62A472811EEC383E00618EB9 /* CircleV6.json */; };
-		62A472861EEC383E00618EB9 /* Featherv6.json in Resources */ = {isa = PBXBuildFile; fileRef = 62A472821EEC383E00618EB9 /* Featherv6.json */; };
-		62A472871EEC383E00618EB9 /* FocusV6.json in Resources */ = {isa = PBXBuildFile; fileRef = 62A472831EEC383E00618EB9 /* FocusV6.json */; };
+		62A472861EEC383E00618EB9 /* VersionFour.json in Resources */ = {isa = PBXBuildFile; fileRef = 62A472821EEC383E00618EB9 /* VersionFour.json */; };
 		62A4728A1EEC386A00618EB9 /* CircleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A472891EEC386A00618EB9 /* CircleViewController.swift */; };
 		62A4728D1EEC389500618EB9 /* 6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 62A4728C1EEC389500618EB9 /* 6.mp3 */; };
 		6337FE29ABC63E90AADDC7FA /* Pods_EstuariesBreathe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D136C236D48CE1AA2AD3D920 /* Pods_EstuariesBreathe.framework */; };
@@ -54,12 +50,11 @@
 
 /* Begin PBXFileReference section */
 		58DB25800A24FA02C65C78F7 /* Pods-EstuariesBreatheUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EstuariesBreatheUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EstuariesBreatheUITests/Pods-EstuariesBreatheUITests.release.xcconfig"; sourceTree = "<group>"; };
-		6247C61D1EF14D2B0098B59D /* v1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = v1.json; sourceTree = "<group>"; };
-		6247C6231EF1520D0098B59D /* font.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = font.json; sourceTree = "<group>"; };
-		6247C6251EF1523B0098B59D /* v2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = v2.json; sourceTree = "<group>"; };
-		6247C6271EF1544D0098B59D /* 7-8-11.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "7-8-11.json"; sourceTree = "<group>"; };
-		6247C6291EF154A20098B59D /* v3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = v3.json; sourceTree = "<group>"; };
 		629552D91EEEFE3D00F53AB7 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		62A25E1B1EF1794600AFE911 /* VersionOne.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = VersionOne.json; sourceTree = "<group>"; };
+		62A25E1D1EF1981B00AFE911 /* heartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = heartViewController.swift; sourceTree = "<group>"; };
+		62A25E211EF1A99600AFE911 /* VersionTwo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = VersionTwo.json; sourceTree = "<group>"; };
+		62A25E231EF1AA2600AFE911 /* LeafViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeafViewController.swift; sourceTree = "<group>"; };
 		62A472341EEC010100618EB9 /* EstuariesBreathe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EstuariesBreathe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62A472371EEC010100618EB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		62A472391EEC010100618EB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -91,10 +86,7 @@
 		62A4727B1EEC348900618EB9 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		62A4727C1EEC348900618EB9 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
 		62A4727D1EEC348900618EB9 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
-		62A472801EEC383E00618EB9 /* HeartV6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = HeartV6.json; sourceTree = "<group>"; };
-		62A472811EEC383E00618EB9 /* CircleV6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CircleV6.json; sourceTree = "<group>"; };
-		62A472821EEC383E00618EB9 /* Featherv6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Featherv6.json; sourceTree = "<group>"; };
-		62A472831EEC383E00618EB9 /* FocusV6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FocusV6.json; sourceTree = "<group>"; };
+		62A472821EEC383E00618EB9 /* VersionFour.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = VersionFour.json; sourceTree = "<group>"; };
 		62A472891EEC386A00618EB9 /* CircleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleViewController.swift; sourceTree = "<group>"; };
 		62A4728C1EEC389500618EB9 /* 6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 6.mp3; sourceTree = "<group>"; };
 		663056D1C852E4C6D3641367 /* Pods_EstuariesBreatheUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EstuariesBreatheUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -136,6 +128,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		62A25E0E1EF1726000AFE911 /* Breathing Ex */ = {
+			isa = PBXGroup;
+			children = (
+				62A25E1B1EF1794600AFE911 /* VersionOne.json */,
+				62A25E211EF1A99600AFE911 /* VersionTwo.json */,
+				62A472821EEC383E00618EB9 /* VersionFour.json */,
+			);
+			name = "Breathing Ex";
+			sourceTree = "<group>";
+		};
 		62A4722B1EEC010100618EB9 = {
 			isa = PBXGroup;
 			children = (
@@ -161,6 +163,7 @@
 		62A472361EEC010100618EB9 /* EstuariesBreathe */ = {
 			isa = PBXGroup;
 			children = (
+				62A25E0E1EF1726000AFE911 /* Breathing Ex */,
 				62A4728B1EEC388A00618EB9 /* Breathing Audio */,
 				62A472881EEC385900618EB9 /* Breathing Controllers */,
 				62A4727F1EEC381E00618EB9 /* Breathing Exercises */,
@@ -229,15 +232,6 @@
 		62A4727F1EEC381E00618EB9 /* Breathing Exercises */ = {
 			isa = PBXGroup;
 			children = (
-				6247C6271EF1544D0098B59D /* 7-8-11.json */,
-				6247C6291EF154A20098B59D /* v3.json */,
-				6247C61D1EF14D2B0098B59D /* v1.json */,
-				6247C6231EF1520D0098B59D /* font.json */,
-				62A472801EEC383E00618EB9 /* HeartV6.json */,
-				6247C6251EF1523B0098B59D /* v2.json */,
-				62A472811EEC383E00618EB9 /* CircleV6.json */,
-				62A472821EEC383E00618EB9 /* Featherv6.json */,
-				62A472831EEC383E00618EB9 /* FocusV6.json */,
 			);
 			name = "Breathing Exercises";
 			sourceTree = "<group>";
@@ -246,6 +240,8 @@
 			isa = PBXGroup;
 			children = (
 				62A472891EEC386A00618EB9 /* CircleViewController.swift */,
+				62A25E1D1EF1981B00AFE911 /* heartViewController.swift */,
+				62A25E231EF1AA2600AFE911 /* LeafViewController.swift */,
 			);
 			name = "Breathing Controllers";
 			sourceTree = "<group>";
@@ -402,17 +398,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62A472841EEC383E00618EB9 /* HeartV6.json in Resources */,
-				6247C62A1EF154A20098B59D /* v3.json in Resources */,
+				62A25E1C1EF1794600AFE911 /* VersionOne.json in Resources */,
 				62A4728D1EEC389500618EB9 /* 6.mp3 in Resources */,
-				6247C6281EF1544D0098B59D /* 7-8-11.json in Resources */,
-				62A472861EEC383E00618EB9 /* Featherv6.json in Resources */,
-				6247C6261EF1523B0098B59D /* v2.json in Resources */,
-				62A472851EEC383E00618EB9 /* CircleV6.json in Resources */,
-				6247C6241EF1520D0098B59D /* font.json in Resources */,
+				62A472861EEC383E00618EB9 /* VersionFour.json in Resources */,
+				62A25E221EF1A99600AFE911 /* VersionTwo.json in Resources */,
 				62A472421EEC010100618EB9 /* LaunchScreen.storyboard in Resources */,
-				6247C61E1EF14D2B0098B59D /* v1.json in Resources */,
-				62A472871EEC383E00618EB9 /* FocusV6.json in Resources */,
 				62A4723F1EEC010100618EB9 /* Assets.xcassets in Resources */,
 				62A4723D1EEC010100618EB9 /* Main.storyboard in Resources */,
 			);
@@ -584,6 +574,8 @@
 				62A472681EEC016B00618EB9 /* SWRevealViewController.m in Sources */,
 				62A4726A1EEC05F700618EB9 /* MenuViewController.swift in Sources */,
 				62A4726C1EEC062C00618EB9 /* MenuTableViewCell.swift in Sources */,
+				62A25E241EF1AA2600AFE911 /* LeafViewController.swift in Sources */,
+				62A25E1E1EF1981B00AFE911 /* heartViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -737,7 +729,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 44W3VXH6S2;
 				INFOPLIST_FILE = EstuariesBreathe/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JohnHalley.EstuariesBreathe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -755,7 +747,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 44W3VXH6S2;
 				INFOPLIST_FILE = EstuariesBreathe/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JohnHalley.EstuariesBreathe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
