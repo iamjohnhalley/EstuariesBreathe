@@ -77,10 +77,6 @@
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Balloon" translatesAutoresizingMaskIntoConstraints="NO" id="fxn-se-fQR">
-                                <rect key="frame" x="33" y="430" width="140" height="140"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0wv-30-dds">
                                 <rect key="frame" x="33" y="217" width="140" height="140"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -114,6 +110,16 @@
                                 <state key="normal" backgroundImage="leaf"/>
                                 <connections>
                                     <segue destination="pEE-gd-EVk" kind="popoverPresentation" popoverAnchorView="kMg-hm-hcF" id="aiq-zb-IAA">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fWF-sY-zRc">
+                                <rect key="frame" x="33" y="430" width="140" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="Balloon"/>
+                                <connections>
+                                    <segue destination="X5Y-F9-DnF" kind="popoverPresentation" popoverAnchorView="fWF-sY-zRc" id="3Mh-zq-4HG">
                                         <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
                                     </segue>
                                 </connections>
@@ -299,7 +305,42 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wGa-cW-5nf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2013.5999999999999" y="1268.8155922038982"/>
+            <point key="canvasLocation" x="980" y="1442"/>
+        </scene>
+        <!--Focus View Controller-->
+        <scene sceneID="Cc6-Du-Nyl">
+            <objects>
+                <viewController id="X5Y-F9-DnF" customClass="FocusViewController" customModule="EstuariesBreathe" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="iAh-xX-gCt"/>
+                        <viewControllerLayoutGuide type="bottom" id="nJ6-mz-KW3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="u2b-zW-787">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Cf-vC-9Sd">
+                                <rect key="frame" x="0.0" y="617" width="375" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.47450980390000003" green="0.68627450980000004" blue="0.81176470590000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Done">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="dismiess:" destination="X5Y-F9-DnF" eventType="touchUpInside" id="LOX-EJ-DfI"/>
+                                    <action selector="dismiss:" destination="pEE-gd-EVk" eventType="touchUpInside" id="Fj2-X1-tjY"/>
+                                    <action selector="doneButton:" destination="Gpi-hD-QRY" eventType="touchUpInside" id="H2j-kQ-wHD"/>
+                                    <action selector="doneButton:" destination="nZ7-Ly-FB8" eventType="touchUpInside" id="pq4-7P-8ci"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CQG-Vw-pIn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2014" y="1476"/>
         </scene>
         <!--Menu View Controller-->
         <scene sceneID="NyJ-d4-tQQ">
@@ -385,7 +426,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="iZr-hT-VYz" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="qA1-AK-yrD">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="qA1-AK-yrD">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>

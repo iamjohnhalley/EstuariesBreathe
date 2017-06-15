@@ -1,22 +1,21 @@
 //
-//  heartViewController.swift
+//  FocusViewController.swift
 //  EstuariesBreathe
 //
-//  Created by John Halley on 14/06/2017.
+//  Created by John Halley on 15/06/2017.
 //  Copyright © 2017 John Halley. All rights reserved.
 //
 
 import UIKit
-import Lottie
 import AVFoundation
+import Lottie
 
-class heartViewController: UIViewController {
+class FocusViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-                 
-     
-
+    
+            
             
             do {
                 audioPlayer = try AVAudioPlayer(contentsOf: URL.init(fileURLWithPath: Bundle.main.path(forResource: "6", ofType: "mp3")!))
@@ -41,7 +40,7 @@ class heartViewController: UIViewController {
             
             
             
-            let animationView = LOTAnimationView(name: "FinalHeart.json")
+            let animationView = LOTAnimationView(name: "VersionThree.json")
             animationView?.frame = CGRect(x: 0, y: 120, width: self.view.frame.size.width, height: 390)
             animationView?.contentMode = .scaleAspectFill
             animationView?.loopAnimation = true
@@ -54,20 +53,14 @@ class heartViewController: UIViewController {
             
         }
         
+        
 
-        
-        
-        
-        @IBAction func doneButton(_ sender: UIButton) {
-            
-            
+    @IBAction func dismiess(_ sender: UIButton) {
+    
+    
             dismiss(animated: true, completion: nil)
             audioPlayer.stop()
             
-    }
-    
- 
-        
-        
-}
+        }
 
+}

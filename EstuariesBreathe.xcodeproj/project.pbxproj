@@ -13,6 +13,9 @@
 		62A25E1E1EF1981B00AFE911 /* heartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A25E1D1EF1981B00AFE911 /* heartViewController.swift */; };
 		62A25E221EF1A99600AFE911 /* VersionTwo.json in Resources */ = {isa = PBXBuildFile; fileRef = 62A25E211EF1A99600AFE911 /* VersionTwo.json */; };
 		62A25E241EF1AA2600AFE911 /* LeafViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A25E231EF1AA2600AFE911 /* LeafViewController.swift */; };
+		62A25E261EF3265500AFE911 /* VersionTwoFinal.json in Resources */ = {isa = PBXBuildFile; fileRef = 62A25E251EF3265500AFE911 /* VersionTwoFinal.json */; };
+		62A25E281EF327F500AFE911 /* FinalHeart.json in Resources */ = {isa = PBXBuildFile; fileRef = 62A25E271EF327F500AFE911 /* FinalHeart.json */; };
+		62A25E2A1EF32FCA00AFE911 /* FocusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A25E291EF32FCA00AFE911 /* FocusViewController.swift */; };
 		62A472381EEC010100618EB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A472371EEC010100618EB9 /* AppDelegate.swift */; };
 		62A4723A1EEC010100618EB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A472391EEC010100618EB9 /* ViewController.swift */; };
 		62A4723D1EEC010100618EB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62A4723B1EEC010100618EB9 /* Main.storyboard */; };
@@ -27,6 +30,7 @@
 		62A472861EEC383E00618EB9 /* VersionFour.json in Resources */ = {isa = PBXBuildFile; fileRef = 62A472821EEC383E00618EB9 /* VersionFour.json */; };
 		62A4728A1EEC386A00618EB9 /* CircleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A472891EEC386A00618EB9 /* CircleViewController.swift */; };
 		62A4728D1EEC389500618EB9 /* 6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 62A4728C1EEC389500618EB9 /* 6.mp3 */; };
+		62FD689C1EF331FB00A68BA6 /* VersionThree.json in Resources */ = {isa = PBXBuildFile; fileRef = 62FD689B1EF331FB00A68BA6 /* VersionThree.json */; };
 		6337FE29ABC63E90AADDC7FA /* Pods_EstuariesBreathe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D136C236D48CE1AA2AD3D920 /* Pods_EstuariesBreathe.framework */; };
 		A3A72EBE72BDCBDCDC82C5AE /* Pods_EstuariesBreatheUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 663056D1C852E4C6D3641367 /* Pods_EstuariesBreatheUITests.framework */; };
 /* End PBXBuildFile section */
@@ -55,6 +59,9 @@
 		62A25E1D1EF1981B00AFE911 /* heartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = heartViewController.swift; sourceTree = "<group>"; };
 		62A25E211EF1A99600AFE911 /* VersionTwo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = VersionTwo.json; sourceTree = "<group>"; };
 		62A25E231EF1AA2600AFE911 /* LeafViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeafViewController.swift; sourceTree = "<group>"; };
+		62A25E251EF3265500AFE911 /* VersionTwoFinal.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = VersionTwoFinal.json; sourceTree = "<group>"; };
+		62A25E271EF327F500AFE911 /* FinalHeart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FinalHeart.json; sourceTree = "<group>"; };
+		62A25E291EF32FCA00AFE911 /* FocusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FocusViewController.swift; sourceTree = "<group>"; };
 		62A472341EEC010100618EB9 /* EstuariesBreathe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EstuariesBreathe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62A472371EEC010100618EB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		62A472391EEC010100618EB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -89,6 +96,7 @@
 		62A472821EEC383E00618EB9 /* VersionFour.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = VersionFour.json; sourceTree = "<group>"; };
 		62A472891EEC386A00618EB9 /* CircleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleViewController.swift; sourceTree = "<group>"; };
 		62A4728C1EEC389500618EB9 /* 6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 6.mp3; sourceTree = "<group>"; };
+		62FD689B1EF331FB00A68BA6 /* VersionThree.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = VersionThree.json; sourceTree = "<group>"; };
 		663056D1C852E4C6D3641367 /* Pods_EstuariesBreatheUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EstuariesBreatheUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D9863D9FC5C92791B983C4F /* Pods-EstuariesBreathe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EstuariesBreathe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EstuariesBreathe/Pods-EstuariesBreathe.debug.xcconfig"; sourceTree = "<group>"; };
 		8135F83BBC8D4A2BA54D45EA /* Pods-EstuariesBreatheTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EstuariesBreatheTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EstuariesBreatheTests/Pods-EstuariesBreatheTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -133,7 +141,10 @@
 			children = (
 				62A25E1B1EF1794600AFE911 /* VersionOne.json */,
 				62A25E211EF1A99600AFE911 /* VersionTwo.json */,
+				62A25E251EF3265500AFE911 /* VersionTwoFinal.json */,
+				62A25E271EF327F500AFE911 /* FinalHeart.json */,
 				62A472821EEC383E00618EB9 /* VersionFour.json */,
+				62FD689B1EF331FB00A68BA6 /* VersionThree.json */,
 			);
 			name = "Breathing Ex";
 			sourceTree = "<group>";
@@ -240,8 +251,9 @@
 			isa = PBXGroup;
 			children = (
 				62A472891EEC386A00618EB9 /* CircleViewController.swift */,
-				62A25E1D1EF1981B00AFE911 /* heartViewController.swift */,
 				62A25E231EF1AA2600AFE911 /* LeafViewController.swift */,
+				62A25E1D1EF1981B00AFE911 /* heartViewController.swift */,
+				62A25E291EF32FCA00AFE911 /* FocusViewController.swift */,
 			);
 			name = "Breathing Controllers";
 			sourceTree = "<group>";
@@ -400,10 +412,13 @@
 			files = (
 				62A25E1C1EF1794600AFE911 /* VersionOne.json in Resources */,
 				62A4728D1EEC389500618EB9 /* 6.mp3 in Resources */,
+				62A25E281EF327F500AFE911 /* FinalHeart.json in Resources */,
 				62A472861EEC383E00618EB9 /* VersionFour.json in Resources */,
 				62A25E221EF1A99600AFE911 /* VersionTwo.json in Resources */,
 				62A472421EEC010100618EB9 /* LaunchScreen.storyboard in Resources */,
 				62A4723F1EEC010100618EB9 /* Assets.xcassets in Resources */,
+				62FD689C1EF331FB00A68BA6 /* VersionThree.json in Resources */,
+				62A25E261EF3265500AFE911 /* VersionTwoFinal.json in Resources */,
 				62A4723D1EEC010100618EB9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -568,6 +583,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				62A4728A1EEC386A00618EB9 /* CircleViewController.swift in Sources */,
+				62A25E2A1EF32FCA00AFE911 /* FocusViewController.swift in Sources */,
 				62A472701EEC119A00618EB9 /* AboutViewController.swift in Sources */,
 				62A4723A1EEC010100618EB9 /* ViewController.swift in Sources */,
 				62A472381EEC010100618EB9 /* AppDelegate.swift in Sources */,
